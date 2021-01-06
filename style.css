@@ -1,0 +1,296 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.top-menu {
+	background-color: #424242;
+}
+	.top-menu .top-left-menu a{
+		color: White;
+		border-right: 1px solid White;
+		padding-right: 5px;
+		font-size: 14px;
+	}
+	.top-menu .top-left-menu a:last-child{
+		border-right: none;
+	}
+	.top-menu .top-right-menu a {
+		color: White;
+		font-size: 14px;
+		padding-right: 5px;
+	}
+	.top-menu .top-right-menu i {
+		color: White;
+		padding-right: 5px;
+	}
+.logo {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.menu {
+	
+}
+.menu li{
+	padding-top:66px;
+}
+.menu a{
+	border:3px solid #424242;
+	margin-right:10px;
+	padding:3px;
+	font-size: 24px;
+}
+.kulakcik {
+	position:fixed;
+	right:0;
+	top:45%;
+	z-index: 2;
+}
+.uye-girisi, .uye-ol, .sepet-sag{
+	width:100px;
+	background-color: #424242;
+	color: White;
+	border:1px solid #424242;
+	border-radius: 20px 10px;
+	margin-bottom:10px;
+}
+.uye-girisi a, .uye-ol a, .sepet-sag a{
+	color: White;
+	padding:0px 10px;
+}
+.navbar button {
+	width: 100%;
+}
+.carousel-caption {
+	left: 0;
+    text-align: right;
+    top: 45%;
+    width: 50%;
+    padding: 20px 10px 20px 20px;
+    background: rgb(0,0,0,0.5);
+    bottom: auto;
+	z-index:1;
+}
+.baslik h2 {
+	text-transform: capitalize;
+}
+.baslik h2:after {
+	content: '';
+    position: absolute;
+    height: 2px;
+    width: 41%;
+    background-color: Black;
+    top: 45%;
+}
+.baslik h2:before {
+	content: '';
+    position: absolute;
+    height: 2px;
+    width: 41%;
+    background-color: Black;
+    top: 45%;
+	left:0;
+}
+.urun {
+	padding: 15px;
+	border: 1px solid #424242;
+}
+.urun h3 {
+	font-size: 18px;
+}
+.urun p {
+	font-size: 14px;
+}
+.urun a {
+	font-size: 14px;
+	background-color: #424242;
+	color: White;
+	text-align: center;
+	display: block;
+	line-height: 22px;
+}
+.newsletter {
+	background-color: #535353;
+	margin-top: 30px;
+}
+
+.newsletterYazi p {
+	font-size: 28px;
+	color: White;
+	padding: 50px 0;
+	margin:0;
+}
+.newsletterForm {
+	padding: 70px 0;
+}
+.newsletterForm .form-group {
+	margin:0;
+	text-align: center;
+}
+.newsletterForm .form-control {
+	display: inline;
+	width: 65%;
+	border: 3px solid #000000;
+}
+.iletisimFormu .btn {
+	width: 100%;
+	margin-left:0;
+}
+.btn-primary {
+	background-color: #000000;
+	border: none;
+	margin-left: 20px;
+}
+.footer-bottom {
+	background-color: #3d3d3d;
+}
+.footer-bottom p {
+	color: White;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.footer-top {
+	background-color: #535353;
+	margin-top: 30px;
+}
+.fHakkimizda {
+	padding: 20px 0;
+}
+.fHakkimizda p{
+	font-size: 14px;
+	text-align: center;
+	padding-top: 20px;
+	color: White;
+}
+.fHakkimizda a{
+	color: #b5b5b5;
+}
+.altKategoriDis {
+	padding-top: 20px;
+}
+.altKategori {	
+	padding: 52px 0;
+}
+.altKategori p{	
+	color: White;
+}
+.altKategori ul{	
+	padding-left:30px;
+}
+.altKategori ul li{	
+	color: White;
+	font-size: 14px;
+}
+.adresDis {
+	color: White;
+	padding-top: 20px;
+}
+.adresIc {
+	color: White;
+	padding: 52px 0 25px;
+	font-size: 14px;
+}
+.adresIc p{
+	font-size: 1rem;
+	color: White;
+}
+.adresIc a{
+	color: White;
+}
+.icSayfa {
+	border-top: 1px solid #535353;
+	padding-top: 20px;
+}
+.kategori a {
+	color: #535353;
+}
+.kategori a:hover {
+	color: #000;
+}
+.sayfalama a {
+	color: #535353;
+}
+.sayfalama a:hover {
+	color: #000;
+}
+.sepete-ekle {
+	width:100%;
+}
+.nav-tabs {
+    border-bottom: 0;    
+	padding-bottom: 8px;
+    border-bottom: 1px solid;
+}
+.nav-tabs li {
+    float: left;
+    margin-bottom: -1px;
+	margin-right: 10px;
+}
+.nav-tabs li a {
+	color: #535353;
+    padding: 10px;
+    border: 1px solid black;
+    border-bottom: 0;
+}
+.tab-content {
+	border:1px solid;
+	border-top:0;
+	padding:10px;
+}
+
+@media (max-width:1023px) {
+	.menu li{
+		padding-top:0;
+	}
+	.menu a{
+		border:none;
+		border-bottom: 3px solid #424242;
+		margin-right:0px;
+		font-size: 16px;
+	}
+	.carousel-caption h1{
+		font-size: 1rem;
+	}
+	.newsletterYazi p {
+		font-size: 18px;
+	}
+	.baslik h2 {
+		font-size: 1.5rem;
+	}
+	.baslik h2:after {
+		content: '';
+		position: absolute;
+		height: 0px;
+		width: 41%;
+		background-color: Black;
+		top: 45%;
+	}
+	.baslik h2:before {
+		content: '';
+		position: absolute;
+		height: 0px;
+		width: 41%;
+		background-color: Black;
+		top: 45%;
+		left:0;
+	}
+	.kategoriler {
+		padding:0 !important;
+		margin-bottom: 10px;
+	}
+	.newsletterForm {
+		padding: 10px 0 50px 0;
+	}	
+	.btn-primary {
+		margin-left: 0px;
+	}
+	.border-right {
+		border-right: 0 !important;
+	}
+	.fHakkimizda {
+		padding: 20px 15px;
+		border-bottom: 1px solid #ffffff;
+	}
+	.altKategori, .adresIc {
+		padding: 0 !important;
+		border-bottom: 1px solid #ffffff;
+	}
+}
